@@ -25,7 +25,7 @@ app.layout = html.Div(
     children=[
         html.H1(children='Title of Dash App', style={'textAlign':'center'}),
         dcc.Input(id="username_input", placeholder="Enter Make", type="text"),
-        dcc.Input(id="username_input", placeholder="Enter Make", type="text"),
+        #dcc.Input(id="username_input", placeholder="Enter Make", type="text"),
         dcc.Graph(id="example-graph", figure=fig),
     ]
 )
